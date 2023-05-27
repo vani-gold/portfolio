@@ -37,7 +37,7 @@
   }
   
   img {
-    max-width: 65%;  
+    max-width: 75%;  
  
   }
   .image{
@@ -93,12 +93,16 @@
     box-shadow: var(--shadow);
   }
   
-  .box {
+  .box{
+    display: flex;
+    padding: 3rem;
+  }
+  /* .box {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: repeat(2, 1fr);
     padding: 3rem;  
-  }
+  } */
   
   .box-a {
     align-self: center;
@@ -270,6 +274,13 @@
   
     .p-mainBox {
       grid-template-columns: repeat(2, 1fr);
+    }
+    .box{
+  flex-direction: column-reverse;
+    }
+    img {
+      max-width: 50%;  
+   
     }
   }
   
